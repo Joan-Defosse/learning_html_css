@@ -1,0 +1,51 @@
+@font-face
+{
+    font-family: 'AlexBrush';
+    src: url(font/AlexBrush-Regular.ttf);
+}
+
+h1
+{
+    font-family: AlexBrush;
+
+    text-align: center;
+}
+
+p
+{
+    font-family: "Trebuchet MS", Georgia, "Courier New", "Comic Sans MS", Impact, "Arial Black", Arial, Verdana, "Times new Roman", sans-serif;
+}
+
+#absolu
+{
+    /* px, cm, mm */
+    font-size: 20px;
+}
+
+#relatif
+{
+    /* em, ex, % */
+    font-size: 0.8em;
+}
+
+.decowstyle
+{
+    /* italic, oblique, normal */
+    font-style: oblique;
+
+    /* bold, normal */
+    font-weight: bold;
+
+    /* underline, overline, line-through, blink, none */
+    text-decoration: overline;
+}
+
+.article
+{
+    text-align: justify;
+}
+
+.signature
+{
+    text-align: right;
+}

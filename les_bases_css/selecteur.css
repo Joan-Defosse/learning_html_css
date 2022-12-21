@@ -1,0 +1,49 @@
+*
+{
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
+h1, em
+{
+    color: blue;
+}
+
+h1 em
+{
+    color: blueviolet;
+}
+
+h3 + p
+{
+    font-style: oblique;
+}
+
+#logo
+{
+    width: 30px;
+}
+
+.intro
+{
+    color: red;
+}
+
+.yo
+{
+    color: orange;
+}
+
+a[title]
+{
+    text-decoration: none;
+}
+
+a[title="marmiton"]
+{
+    color: maroon;
+}
+
+a[title*="cuisine"]
+{
+    color: yellowgreen;
+}

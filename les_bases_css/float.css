@@ -1,0 +1,13 @@
+.imageflottante
+{
+    width: 60px;
+
+    /* left, right, none, inline-end, inline-start */
+    float: left;
+}
+
+.dessous
+{
+    /* left, right, both */
+    clear:both;
+}

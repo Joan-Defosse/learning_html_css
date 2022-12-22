@@ -1,0 +1,24 @@
+body
+{
+    /*
+    background-image: url("img/neige.jpg");
+
+    background-attachment: fixed, scroll;
+
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat;
+
+    background-position: top, bottom, left, right, center;
+    */
+
+    background: url("img/soleil.png") fixed no-repeat top right, url("img/neige.jpg") fixed;
+}
+
+p
+{
+    background-color: black; /* Navigateurs anciens */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    /* Rend tout transparent, rgba plus pratique
+    opacity: 0.6;*/
+}

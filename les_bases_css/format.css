@@ -1,3 +1,11 @@
+/* Formats de font :
+* .ttf : >IE9 & all
+* .eot : IE & Edge
+* .otf : !IE
+* .svg : Apple
+* .woff : >IE9 & all
+*/
+
 @font-face
 {
     font-family: 'AlexBrush';

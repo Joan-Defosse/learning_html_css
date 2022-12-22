@@ -1,4 +1,30 @@
+/* border = border-width border-color border-style */
 
+.sides_only
+{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.arrondi_vide
+{
+    border-radius: 10px;
+    border: 3px black solid;
+}
+
+.arrondi_plein
+{
+    /* Aiguilles d'une montre */
+    border-radius: 10px 5px 10px 5px; 
+    background-color: black;
+    color: white;
+}
+
+.arrondi_test
+{
+    border-radius: 10px / 20px;
+    border: 3px black solid;
+}
 
 /* Tous les types de bordures ================== */
 

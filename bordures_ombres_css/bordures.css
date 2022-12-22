@@ -30,40 +30,40 @@
 
 #solid
 {
-    border: 3px blue solid;
+    border: 3px black solid;
 }
 
 #dotted
 {
-    border: 3px teal dotted;
+    border: 3px black dotted;
 }
 
 #dashed
 {
-    border: 3px maroon dashed;
+    border: 3px black dashed;
 }
 
 #double
 {
-    border: 3px burlywood double;
+    border: 3px black double;
 }
 
 #groove
 {
-    border: 3px lime groove;
+    border: 3px black groove;
 }
 
 #ridge
 {
-    border: 3px yellowgreen ridge;
+    border: 3px black ridge;
 }
 
 #inset
 {
-    border: 3px purple inset;
+    border: 3px black inset;
 }
 
 #outset
 {
-    border: 3px crimson outset;
+    border: 3px black outset;
 }

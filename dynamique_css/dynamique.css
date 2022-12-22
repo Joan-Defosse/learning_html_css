@@ -1,0 +1,28 @@
+a
+{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+a:visited
+{
+    color: #AAAAAA;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+
+a:active
+{
+    background-color: #FFCC66;
+}
+
+a:focus
+{
+    background-color: #FFCC66;
+}
+

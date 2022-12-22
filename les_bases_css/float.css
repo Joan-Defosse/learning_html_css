@@ -1,9 +1,17 @@
-.imageflottante
+.imageflottante1
 {
     width: 60px;
 
     /* left, right, none, inline-end, inline-start */
     float: left;
+}
+
+.imageflottante2
+{
+    width: 60px;
+
+    /* left, right, none, inline-end, inline-start */
+    float: right;
 }
 
 .dessous

@@ -8,6 +8,7 @@ h1
 {
     font-family: AlexBrush;
 
+    /* left, right, center, jutify */
     text-align: center;
 }
 
@@ -36,7 +37,7 @@ p
     /* bold, normal */
     font-weight: bold;
 
-    /* underline, overline, line-through, blink, none */
+    /* underline, overline, line-through, none */
     text-decoration: overline;
 }
 

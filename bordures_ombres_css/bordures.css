@@ -1,0 +1,43 @@
+
+
+/* Tous les types de bordures ================== */
+
+#solid
+{
+    border: 3px blue solid;
+}
+
+#dotted
+{
+    border: 3px teal dotted;
+}
+
+#dashed
+{
+    border: 3px maroon dashed;
+}
+
+#double
+{
+    border: 3px burlywood double;
+}
+
+#groove
+{
+    border: 3px lime groove;
+}
+
+#ridge
+{
+    border: 3px yellowgreen ridge;
+}
+
+#inset
+{
+    border: 3px purple inset;
+}
+
+#outset
+{
+    border: 3px crimson outset;
+}

@@ -1,0 +1,94 @@
+section
+{
+    -webkit-column-width: 220px;
+    -moz-column-width: 220px;
+    column-width: 220px
+}
+
+div
+{
+    break-inside: avoid-column;
+    -webkit-break-inside: avoid;
+    break-after: avoid-column;
+    -webkit-break-after: avoid;
+}
+
+.degrade_basic
+{
+    background-image: linear-gradient(blue, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_to
+{
+    background-image: linear-gradient(to top right, blue, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_deg
+{
+    background-image: linear-gradient(270deg, blue, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_rad
+{
+    background-image: linear-gradient(6.28rad, blue, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_multicolor
+{
+    background-image: linear-gradient(to right, blue, green, #0ff, rgb(200, 30, 170));
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_transparent
+{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_percent
+{
+    background-image: linear-gradient(to right, blue 0%, green 20%);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_px
+{
+    background-image: linear-gradient(to right, blue 0px, green 170px);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_repet
+{
+    background-image: repeating-linear-gradient(white, green 50px);
+
+    width: 200px;
+    height: 150px;
+}
+
+.degrade_repet2
+{
+    background-image: repeating-linear-gradient(to right, green, limegreen, lime, limegreen, green 20px);
+
+    width: 200px;
+    height: 150px;
+}

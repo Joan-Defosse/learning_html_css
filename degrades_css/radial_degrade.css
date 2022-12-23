@@ -1,0 +1,55 @@
+section
+{
+    -webkit-column-width: 220px;
+    -moz-column-width: 220px;
+    column-width: 220px
+}
+
+div
+{
+    break-inside: avoid-column;
+    -webkit-break-inside: avoid;
+    break-after: avoid-column;
+    -webkit-break-after: avoid;
+}
+
+.radegrade_circle
+{
+    background-image: radial-gradient(circle at center, white, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.radegrade_ellipse
+{
+    background-image: radial-gradient(ellipse at center, white, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.radegrade_position
+{
+    background-image: radial-gradient(ellipse at top left, white, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.radegrade_limit
+{
+    /* closest-side, farthest-side, closest-corner, farther-corner */
+    background-image: radial-gradient(closest-side ellipse at center, white, green);
+
+    width: 200px;
+    height: 150px;
+}
+
+.radegrade_repet
+{
+    background-image: repeating-radial-gradient(farthest-side ellipse at center, purple, navy, blue, navy, purple 20px);
+
+    width: 200px;
+    height: 150px;
+}

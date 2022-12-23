@@ -1,0 +1,53 @@
+section
+{
+    text-align: justify;
+
+    /* Césure */
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+    /* -webkit-columns: 4 100px;
+    *  -moz-columns: 4 100px;
+    *  columns: 4 100px;*/
+
+    /* -webkit-column-witdh: 100px;
+    *  -moz-column-width: 100px;
+    *  column-width: 100px;*/
+
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+
+    -webkit-column-rule: 2px dashed black;
+    -moz-column-rule: 2px dashed black;
+    column-rule: 2px dashed black;
+}
+
+/* Un texte sur plusieurs colonnes */
+section h1
+{
+    -webkit-column-span: all;
+    -moz-column-span: all;
+    column-span: all;
+}
+
+/* Sauts de colonnes */
+section h2
+{
+    break-before: column;
+    -webkit-break-before: always;
+
+    /* break-before, break-inside, break-after
+    * auto, column, avoid-column
+    *
+    * -webkit-break-before, -webkit-break-inside, -webkit-break-after
+    * auto, always, avoid
+    */
+}
+
